@@ -1,0 +1,106 @@
+/* 각 섹션별 */
+h1 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* 강의목록 */
+  .course-table {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .course-table-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .course-table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .course-table-cell {
+    flex: 1;
+  }
+  
+  .course-table-row:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+  }
+  
+  .course-table-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .course-table-cell {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  /* 수강신청 버튼 */
+  .enroll-button {
+    background-color: #5080b4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .enroll-button:hover {
+    background-color: #34608f;
+  }
+  
+  
+  /* 수강신청한 강의 목록 */
+  .my-courses {
+    margin-top: 20px;
+  }
+  
+  /* 강의별 게시물 목록 */
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .posts li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .posts li h3 {
+    margin-bottom: 5px;
+    color: #a7b9d4;
+  }
+  
+  .posts li p {
+    margin-top: 5px;
+  }
+  
+  

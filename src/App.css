@@ -1,0 +1,38 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #0000001a;
+}
+
+.login, .btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #576bec;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4b5ccb;
+}
+
+.error {
+  color: red;
+}
+

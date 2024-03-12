@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #283f63;
+  }
+  h3 {
+    text-align: center;
+    color: #1f3250;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #a7b9d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.button-list li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+  button:hover {
+    background-color: #6987b5;
+  }
+  
+  ul li {
+    font-size: 18px;
+  }
+  
